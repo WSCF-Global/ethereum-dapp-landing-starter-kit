@@ -130,6 +130,10 @@ export class Web3Enabled {
     }
   }
 
+  async getEthBalance(address) {
+    return this.web3.eth.getBalance(address);
+  }
+
   async estimateGas(func, val, _onError) {
     try {
       const gas = await func.estimateGas({

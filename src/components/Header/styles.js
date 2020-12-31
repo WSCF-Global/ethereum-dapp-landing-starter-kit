@@ -4,6 +4,7 @@ import { MenuOutlined } from "@ant-design/icons";
 
 export const Header = styled.header`
   padding: 1rem 0.5rem;
+  background-color: #f9fafc;
 `;
 
 export const LogoContainer = styled(Link)`
@@ -84,7 +85,7 @@ export const CustomNavLinkSmall = styled(NavLink)`
   margin: 0.25rem 2rem;
 
   @media only screen and (max-width: 768px) {
-    margin: 1.25rem 2rem;
+    margin: 1.25rem 0rem;
   }
 `;
 
