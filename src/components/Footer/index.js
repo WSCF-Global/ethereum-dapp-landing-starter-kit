@@ -107,35 +107,35 @@ const Footer = () => {
               </S.NavLink>
               <S.FooterContainer>
                 <a
-                  href="https://github.com/Adrinlol/create-react-app-adrinlol"
+                  href="https://github.com/Araton95/ethereum-dapp-landing-starter-kit"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <SvgIcon src="github.svg" />
                 </a>
                 <a
-                  href="https://twitter.com/Adrinlolx"
+                  href="https://www.twitter.com/araton95/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <SvgIcon src="twitter.svg" />
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/lasha-kakabadze//"
+                  href="https://www.linkedin.com/in/araton95/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <SvgIcon src="linkedin.svg" />
                 </a>
                 <a
-                  href="https://github.com/Adrinlol/"
+                  href="https://github.com/araton95/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <SvgIcon src="instagram.svg" />
                 </a>
                 <a
-                  href="https://medium.com/@lashakakabadze/"
+                  href="https://medium.com/@arikdonovan/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -146,7 +146,7 @@ const Footer = () => {
             <Row type="flex" justify="space-between">
               <Col lg={12} md={12} sm={12} xs={24}>
                 <S.CSite>
-                  All Rights Reserved - Landy © {new Date().getFullYear()}
+                  All Rights Reserved - Landy & Ararat T. © {new Date().getFullYear()}
                 </S.CSite>
               </Col>
             </Row>

@@ -87,7 +87,7 @@ const Header = () => {
               </S.WalletContainer>
               :
               <Link to="/">
-                <Button onClick={connectWallet}>{t("Connect wallet")}</Button>
+                <Button color="white" onClick={connectWallet}>{t("Connect wallet")}</Button>
               </Link>
           }
         </S.CustomNavLinkSmall>
