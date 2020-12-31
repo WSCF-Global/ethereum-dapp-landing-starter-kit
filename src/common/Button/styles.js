@@ -11,7 +11,7 @@ export const Button = styled.button`
   height: 60px;
   outline: none;
   cursor: pointer;
-  margin-top: 0.625rem;
+  margin-top: 0;
   max-width: 180px;
 
   @media only screen and (max-width: 1024px) {

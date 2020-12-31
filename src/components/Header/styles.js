@@ -11,6 +11,13 @@ export const LogoContainer = styled(Link)`
   padding-top: 1rem;
 `;
 
+export const WalletContainer = styled.div`
+  display: flex;
+  height: 60px;
+  align-items: center;
+  justify-content: space-around;
+`;
+
 export const Container = styled.div`
   position: relative;
   width: 100%;
