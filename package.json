@@ -10,6 +10,7 @@
     "axios": "^0.19.2",
     "bnc-notify": "^1.5.1",
     "bnc-onboard": "^1.17.1",
+    "dotenv": "^8.2.0",
     "i18next": "^19.6.3",
     "i18next-browser-languagedetector": "^5.0.0",
     "i18next-xhr-backend": "^3.2.2",

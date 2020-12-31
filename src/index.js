@@ -1,3 +1,4 @@
+import dotenv from 'dotenv';
 import React from "react";
 import { BrowserRouter } from "react-router-dom";
 import ReactDOM from "react-dom";
@@ -7,6 +8,8 @@ import Router from "./router";
 import Styles from "./globalStyles";
 import i18n from "./translation";
 import * as serviceWorker from "./serviceWorker";
+
+dotenv.config();
 
 const App = () => (
   <BrowserRouter>
