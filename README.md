@@ -6,3 +6,7 @@
 Check the live demo here 👉️ https://ethereum-dapp-landing-starter-kit.netlify.app/
 
 ![ethereum-dapp](https://i.imgur.com/9Hd2maJ.gif)
+
+#### If it helps you please add the "Star" to this repo ⭐
+
+Thanks 🙏
