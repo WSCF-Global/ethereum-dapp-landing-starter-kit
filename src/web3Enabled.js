@@ -5,12 +5,12 @@ import Notify from 'bnc-notify';
 export class Web3Enabled {
   constructor() {
     this.assistInstance = null;
-    this.blocknativeAPIKey = process.env.REACT_APP_BLOCKNATIVE_KEY;
-    this.infuraKey = process.env.REACT_APP_INFURA_KEY;
-    this.portisAPIKey = process.env.REACT_APP_PORTIS_API_KEY;
+    this.blocknativeAPIKey = "6452365e-975c-4431-a0cb-fcd046ea781f";
+    this.infuraKey = "https://mainnet.infura.io/v3/cb55fad7b02849bf8f4f9bfcc933c128";
+    this.portisAPIKey = "339afe3d-db9f-4342-8110-30f62d18ede8";
     this.squarelinkKey = process.env.REACT_APP_SQUARE_LINK_KEY;
-    this.fortmaticKey = process.env.REACT_APP_FORTMATIC_KEY;
-    this.networkID = parseInt(process.env.REACT_APP_NETWORK_ID);
+    this.fortmaticKey = "pk_test_1A9BBED61918A07E";
+    this.networkID = 42;
     this.state = {
       address: null
     };
