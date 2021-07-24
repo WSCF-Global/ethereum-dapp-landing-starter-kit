@@ -7,11 +7,11 @@ export class Web3Enabled {
     console.log(process.env.REACT_APP_INFURA_KEY)
     this.assistInstance = null;
     this.blocknativeAPIKey = process.env.REACT_APP_BLOCKNATIVE_KEY;
-    this.infuraKey = process.env.REACT_APP_INFURA_KEY;
+    this.infuraKey = "cb55fad7b02849bf8f4f9bfcc933c128";
     this.portisAPIKey = process.env.REACT_APP_PORTIS_API_KEY;
     this.squarelinkKey = process.env.REACT_APP_SQUARE_LINK_KEY;
     this.fortmaticKey = process.env.REACT_APP_FORTMATIC_KEY;
-    this.networkID = parseInt(process.env.REACT_APP_NETWORK_ID);
+    this.networkID = 42;
     this.state = {
       address: null
     };

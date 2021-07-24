@@ -8,7 +8,7 @@ import Router from "./router";
 import Styles from "./globalStyles";
 import i18n from "./translation";
 import * as serviceWorker from "./serviceWorker";
-
+// import  './scss/app.scss';
 dotenv.config();
 
 const App = () => (

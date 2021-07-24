@@ -1,23 +1,18 @@
-import React from "react";
+import React from 'react'
 
-import Container from "../../common/Container";
-import ScrollToTop from "../../common/ScrollToTop";
+import Container from '../../common/Container'
+import ScrollToTop from '../../common/ScrollToTop'
 
-import {
-  Row,
-  Col,
-  CardBody,
-  Card,
-} from 'reactstrap'
+import { Row, Col, CardBody, Card } from 'reactstrap'
 
 import './Dashboard.css'
 import styles from '../Home/Youtube.module.css'
 import { ReactVideo } from 'reactjs-media'
 import Video from '../Home/img/video.mp4'
 import Poster from '../Home/img/poster.png'
-
+import Header from '../../components/Header/index'
 import Gem from './Gem/Gem'
-
+// import Topbar from '../../components/Header/Topbar'
 // import ContactFrom from "../../components/ContactForm";
 // import ContentBlock from "../../components/ContentBlock";
 // import MiddleBlock from "../../components/MiddleBlock";
@@ -32,52 +27,49 @@ const Home = () => {
   return (
     <Container>
       <ScrollToTop />
-
+     
       <Row className="mb-3 justify-content-center">
-          <Col md={6} sm={6}>
-            <h2 className="text-center mt-3 mb-2">
-              Welcome To
-              <strong className="custom-text-color">&nbsp;Supraorbs</strong>
-            </h2>
-            <h4 className="text-white mt-1 mb-3 text-center">
-              Unlock Available Casino Games With Gems, Get Supra Chips And Start
-              Playing.
-            </h4>
-          </Col>
+        <Col md={6} sm={6}>
+          <h2 className="text-center mt-3 mb-2">
+            Welcome To
+            <strong className="custom-text-color">&nbsp;Supraorbs</strong>
+          </h2>
+          <h4 className="text-white mt-1 mb-3 text-center">
+            Unlock Available Casino Games With Gems, Get Supra Chips And Start
+            Playing.
+          </h4>
+        </Col>
+      </Row>
+
+      <Row className="justify-content-center">
+        <Col md={10} sm={12}>
+          <Card>
+            <CardBody className="p-0">
+              <ReactVideo
+                src={Video}
+                poster={Poster}
+                primaryColor="red"
+                className={styles.customVideo}
+              />
+            </CardBody>
+          </Card>
+        </Col>
+      </Row>
+
+      <Container>
+        <h3 className="  mt-5 mb-5 text-center">
+          Buy Your Gem To Unlock The Game
+        </h3>
+        <Row className="text-center centerRow">
+          <Gem id={1} />
+          <Gem id={2} />
+          <Gem id={3} />
+
+          <Gem id={4} />
+          <Gem id={5} />
+          <Gem id={6} />
         </Row>
-
-        <Row className="justify-content-center">
-          <Col md={10} sm={12}>
-            <Card>
-              <CardBody className="p-0">
-                <ReactVideo
-                  src={Video}
-                  poster={Poster}
-                  primaryColor="red"
-                  className={styles.customVideo}
-                />
-              </CardBody>
-            </Card>
-          </Col>
-        </Row>
-
-        <Container>
-          <h3 className="  mt-5 mb-5 text-center">
-            Buy Your Gem To Unlock The Game
-          </h3>
-          <Row className="text-center centerRow">
-            <Gem id={1} />
-            <Gem id={2} />
-            <Gem id={3} />
-
-            <Gem id={4} />
-            <Gem id={5} />
-            <Gem id={6} />
-          </Row>
-        </Container>
-
-
-
+      </Container>
 
       {/* <ContentBlock
         type="right"
@@ -114,11 +106,10 @@ const Home = () => {
       />
       <ContactFrom title={ContactBlock.title} content={ContactBlock.text} /> */}
     </Container>
-  );
-};
+  )
+}
 
-export default Home;
-
+export default Home
 
 // import React, { useState, useEffect } from 'react'
 // import { withRouter } from 'react-router'

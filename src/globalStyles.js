@@ -54,10 +54,10 @@ const Styles = createGlobalStyle`
     a {
         text-decoration: none;
         outline: none;
-        color: #2E186A;
+        color: white;
 
         :hover {
-            color: rgb(255, 130, 92);
+            color: #ff6e00;
         }
     }
     
